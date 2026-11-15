@@ -37,7 +37,7 @@ left side */
     color: white;
     text-decoration: none;
     font-family: arial, sans-serif;
-    font-size: 13px;
+    font-size: 30px;
     letter-spacing: 2px;
     margin-top: 6px;
 
@@ -52,12 +52,22 @@ h1{
 }
 
 
+
+.brand small{
+    display: block;
+    color: #E8892B;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    letter-spacing: 2px;
+    margin-top: 6px;
+
+}
+
 /* 
 navigation */
 
 .navbar ul{
     list-style-type: none;
-    background-color: #714428;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
@@ -67,14 +77,17 @@ navigation */
 .navbar a{
     color: white;
     font-weight: bold;
+    text-decoration: none;
     padding: 14px 20px;
     display: block;
     text-align: center;
+    border-radius: 30px;
     
 
 }
 
-.navbar a:hover{
+.navbar a:hover,
+.navbar a.active{
     background-color:#E8892B;
 }
 
@@ -91,6 +104,12 @@ navigation */
     gap: 40px;
     padding: 60px 10%;
     
+}
+
+
+
+.banner-text, .banner-image{
+    flex: 1;
 }
 
 .banner h1{
@@ -110,18 +129,27 @@ navigation */
 }
 
 .banner .tagline{
+    color: #E8892B;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.button {
     display: inline-block;
     background-color: #E8892B;
-    color: #3b2314;
+    color: white;
     font-weight: bold;
     text-decoration: none;
     padding: 15px 30px;
     border-radius: 30px;
     margin-top: 15px;
-    border: 2px solid #E8892B;
+    border: 2px solid ;
+
 }
 
-.button {
+
+.button .outline{
     background-color: transparent;
     color: white;
 }
