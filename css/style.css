@@ -9,9 +9,10 @@ h1{
 
 .navbar ul{
     list-style-type: none;
-    background-color: #3B2416;
+    background-color: #714428;
     padding: 0px;
     margin: 0px;
+    overflow: hidden;
 
 }
 
@@ -19,11 +20,16 @@ h1{
     color: white;
     padding: 15px;
     display: block;
+    text-align: center;
 
 }
 
-.nav li:hover{
+.navbar a:hover{
     background-color:#E8892B;
+}
+
+.navbar li{
+    float: left;
 }
 
 
