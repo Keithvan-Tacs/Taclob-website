@@ -1,4 +1,49 @@
 
+body{
+
+    margin: 0;
+    font-family: arial, sans-serif;
+
+}
+
+
+/* top bar */
+.topbar{
+
+    background-color: #24150d;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    padding: 15px;
+
+
+
+}
+
+/* header */
+header{
+
+    background-color: #3b2314;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+}
+
+/* 
+left side */
+
+.brand{
+    color: white;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    letter-spacing: 2px;
+    margin-top: 6px;
+
+}
+
+
 
 
 h1{
@@ -6,6 +51,9 @@ h1{
     font-size: 16px;
 }
 
+
+/* 
+navigation */
 
 .navbar ul{
     list-style-type: none;
@@ -18,9 +66,11 @@ h1{
 
 .navbar a{
     color: white;
-    padding: 15px;
+    font-weight: bold;
+    padding: 14px 20px;
     display: block;
     text-align: center;
+    
 
 }
 
@@ -30,6 +80,7 @@ h1{
 
 .navbar li{
     float: left;
+    margin: 5px;
 }
 
 
